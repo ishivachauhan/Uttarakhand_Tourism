@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  </head>
+  <body>
+
+
+
+    <div id="header">
+      <div class="container">
+        <nav class="">
+          <!-- <h3><span>#G</span>EEK</h3> -->
+          <img src="logo1.png" alt="" class="logo" />
+          <div class="slogan">
+            <h2>UTTARAKHAND</h2>
+            <br />
+            <h4>Simply Heaven</h4>
+          </div>
+          <ul class="menu">
+            <li class="e1"><a href="index.html">HOME</a></li>
+            <li class="e1"><a href="about.html">ABOUT</a></li>
+            <li class="e7">
+              <a href="#" id="dr1">ATTRACTIONS</a>
+              <div class="drop">
+                <ul>
+                  <li>
+                    <a href="#" id="D2" class="s2">PLACES</a>
+                    <div class="drop-1">
+                      <ul>
+                        <li><a href="rksh.html">RISHIKESH</a></li>
+                        <li><a href="nainital.html">NAINITAL</a></li>
+                        <li><a href="mussorie.html">MUSSOORIE</a></li>
+                        <li><a href="haridwar.html">HARIDWAR</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#" class="s2">TEMPLES</a>
+                    <div class="drop-1">
+                      <ul>
+                        <li><a href="kedar.html">KEDARNATH</a></li>
+                        <li><a href="badri.html">BADRINATH</a></li>
+                        <li><a href="yamu.html">YAMUNOTRI</a></li>
+                        <li><a href="gango.html">GANGOTRI</a></li>
+                       
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#" class="s2">ADVENTURES</a>
+                    <div class="drop-1">
+                      <ul>
+                        <li><a href="raf.html">RIVER RAFTING</a></li>
+                        <li><a href="bunge.html">BUNGEE JUMPING</a></li>
+                        <li><a href="trek.html">TREKING</a></li>
+                        
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li><a href="hist.html">HISTORY</a></li>
+          </ul>
+        </nav>
+      </div>
+      <hr size="4" noshade="">
+    </div>
+      <div class="main_body">
+        
+        <div class="container-1">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  src="bg1.jpg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="bg2.jpg"
+                />
+
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="bg3.jpg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="bg4.jpg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                src="bg7.jpg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="bg5.jpg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="bg6.jpg"
+                />
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+    
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+          const swiper = new Swiper(".swiper", {
+            autoplay: {
+              delay: 3000,
+              disableONInteraction: false,
+            },
+            loop: true,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+    
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+        </script>
+    
+  
+    </div>
+    <!-- <div class="about">
+      <h1>about</h1>
+    </div> -->
+    
+  
+  </body>
+ 
+</html>

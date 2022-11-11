@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Popins", sans-serif;
+    box-sizing: border-box;
+    box-shadow: #080808;
+    color: #fff;
+  }
+  
+  body {
+    background: #080808;
+    color: #fff;
+  }
+  
+  #header {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(bg2.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+  }
+  .menu {
+    position: relative;
+    left: 3%;
+  }
+  .container {
+    padding: 10px 10%;
+    background-color: #cdcdcd;
+    /* background: url('Trekking.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+  }
+  .slogan h2 {
+    font-family: "Kolker Brush", cursive;
+    font-size: 4rem;
+    position: relative;
+    left: -64%;
+    font-weight: 100;
+    color: #080808;
+  }
+  .slogan h4 {
+    font-family: "Kolker Brush", cursive;
+    font-size: 4rem;
+    font-weight: 100;
+    position: relative;
+    right: -34%;
+    line-height: 0;
+    color: #ff6d04;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 140px;
+    position: relative;
+    left: -12%;
+  }
+  nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+  }
+  nav ul li a {
+    color: #080808;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+  }
+  nav ul li a::after {
+    content: "";
+    background: #ff6d04;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    top: 19px;
+    transition: 0.5s;
+  }
+  nav ul li a:hover::after {
+    width: 100%;
+  }
+  
+  .main_body {
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+  
+  }
+  .main_left {
+    display: flex;
+    flex-basis: 35%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: nowrap;
+  }
+  .main_left h3 {
+    font-size: 5rem;
+  }
+  .main_right {
+    flex-basis: 60%;
+  }
+  .drop {
+    display: none;
+  }
+  nav .menu li:hover .drop {
+    display: block;
+    position: absolute;
+    background: #cdcdcd;
+    margin-top: 1px;
+    margin-left: -15px;
+  }
+  
+  nav .menu li:hover .drop ul {
+    display: grid;
+    margin: 0 10px;
+  }
+  nav .menu li:hover .drop li {
+    width: 120px;
+    padding: 10px;
+  
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+  }
+  .drop-1 {
+    display: none;
+  }
+  .drop ul li:hover .drop ul li {
+    display: none;
+  }
+  .drop ul li:hover .drop-1 {
+    display: block;
+    position: absolute;
+    background: #cdcdcd;
+    margin-top: 1px;
+    /* margin-left: -15px; */
+    left: -100%;
+    top: -0.9%;
+  }
+  .drop ul li:hover .drop-1 ul {
+    display: grid;
+    margin: 0 10px;
+  }
+  .drop ul li:hover .drop-1 ul li {
+    width: 150px;
+    padding: 10px;
+  
+    background: #cdcdcd;
+    border-radius: 1px;
+    text-align: left;
+  }
+  .s2 {
+    font-weight: 300;
+  }
+  .drop-2
+  {
+    display: block;
+  }
+
+  .e1 .mbdy .title h1
+  {
+    font-family: "Kolker Brush", cursive;
+    font-size: 9rem;
+    margin: 0 43%;
+    color: #ff6d04
+  }
+  .content
+  {
+    margin: 0 6%;
+  }
+  .content h3{
+    line-height: 2rem;
+  }
